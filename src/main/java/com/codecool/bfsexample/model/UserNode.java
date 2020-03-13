@@ -11,6 +11,7 @@ public class UserNode {
     private static long idCounter = 0;
     private String firstName;
     private String lastName;
+    private boolean visited = false;
 
     private Set<UserNode> friends = new HashSet<>();
 
@@ -46,6 +47,14 @@ public class UserNode {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public boolean isVisited() {
+        return visited;
+    }
+
+    public void setVisited(boolean visited) {
+        this.visited = visited;
     }
 
     public String toString() {

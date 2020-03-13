@@ -41,8 +41,8 @@
             <version>3.7.0</version>
             <inherited>true</inherited>
             <configuration>
-               <source>1.8</source>
-               <target>1.8</target>
+               <source>9</source>
+               <target>9</target>
                <compilerArgument>-Xlint:all</compilerArgument>
                <showWarnings>true</showWarnings>
                <showDeprecation>true</showDeprecation>
