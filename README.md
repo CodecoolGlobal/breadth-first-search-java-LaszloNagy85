@@ -1,3 +1,5 @@
-# BFS-JavaEE
+# BFS-JavaEE 
 
-See instructions in Canvas
+## Breath-First search implementation
+
+This project is about to pratice, how to create BFS algorithm.
